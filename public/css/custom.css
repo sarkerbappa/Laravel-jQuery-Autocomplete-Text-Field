@@ -1,0 +1,58 @@
+/* 
+    Document   : custom
+    Created on : Nov 1, 2016, 9:27:59 PM
+    Author     : bappa
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Trirong:200,400');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+root { 
+    display: block;
+}
+html,body,.bpt-wrapper{
+    height: 100%;
+}
+.bpt-wrapper{
+    background-color:#ddd;
+    padding: 30px;
+    color: #141a1d;
+}
+
+.bpt-header-title-box{
+    text-align: center;
+    padding-bottom: 80px;
+    
+}
+.bpt-header-title-box h1{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+.bpt-header-title-box h3,
+.bpt-middle-body-wrapper h3{
+    font-family: 'Trirong', serif;
+     font-weight:normal;
+}
+
+.bpt-github-link{
+/*    padding-top: 50px;*/
+/*    text-align: center;*/
+}
+
+.bpt-footer{
+    padding-bottom:30px;
+}
+.bpt-name-link h3{
+     font-family: 'Lobster', cursive;
+     font-weight: normal;
+}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
